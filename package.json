@@ -1,23 +1,24 @@
 {
-    "name": "io.extendreality.tilia.{scope}.{feature}.{platform?}",
-    "displayName": "Tilia {scope}.{feature}.{platform?}",
-    "description": "{Description of feature.}",
-    "changelogUrl": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/blob/master/CHANGELOG.md",
-    "documentationUrl": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/tree/master/Documentation",
-    "licensesUrl": "https://github.com/ExtendRealityLtd/Tilia.CameraRigs.{scope}.{feature}.{platform?}/blob/master/LICENSE.md",
+    "name": "io.extendreality.tilia.sdk.picointegration.unity",
+    "displayName": "Tilia SDK PicoIntegration Unity",
+    "description": "SDK Wrappers for the Pico Integration Unity asset.",
+        "changelogUrl": "https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/blob/master/CHANGELOG.md",
+    "documentationUrl": "https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/tree/master/Documentation",
+    "licensesUrl": "https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/blob/master/LICENSE.md",
     "version": "1.0.0",
-    "unity": "2018.3",
-    "unityRelease": "10f1",
+    "unity": "2020.3",
+    "unityRelease": "19f1",
     "keywords": [
-        "pattern"
+        "sdk",
+        "wrapper"
     ],
-    "homepage": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/",
+    "homepage": "https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/",
     "bugs": {
-        "url": "https://github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}/issues"
+        "url": "https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/issues"
     },
     "repository": {
         "type": "git",
-        "url": "ssh://git@github.com/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}.git"
+        "url": "ssh://git@github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity.git"
     },
     "license": "MIT",
     "author": {
@@ -26,7 +27,7 @@
         "url": "https://github.com/ExtendRealityLtd"
     },
     "dependencies": {
-        "io.extendreality.zinnia.unity": "X.Y.Z"
+        "io.extendreality.zinnia.unity": "2.7.2"
     },
     "files": [
         "*.md",
@@ -34,6 +35,8 @@
         "*.asmdef",
         "*.xml",
         "Documentation",
-        "Runtime"
+        "Runtime",
+        "Editor",
+        "docfx.json"
     ]
 }
