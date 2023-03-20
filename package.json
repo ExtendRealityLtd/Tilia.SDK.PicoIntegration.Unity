@@ -2,7 +2,7 @@
     "name": "io.extendreality.tilia.sdk.picointegration.unity",
     "displayName": "Tilia SDK PicoIntegration Unity",
     "description": "SDK Wrappers for the Pico Integration Unity asset.",
-        "changelogUrl": "https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/blob/master/CHANGELOG.md",
+    "changelogUrl": "https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/blob/master/CHANGELOG.md",
     "documentationUrl": "https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/tree/master/Documentation",
     "licensesUrl": "https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/blob/master/LICENSE.md",
     "version": "1.0.0",
