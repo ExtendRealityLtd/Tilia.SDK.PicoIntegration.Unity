@@ -949,7 +949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 683186412819233148}
   - component: {fileID: 5820357425721351659}
-  - component: {fileID: 5421760696769655878}
+  - component: {fileID: 8063563122744338771}
   - component: {fileID: 683186412819233149}
   - component: {fileID: 683186412819233150}
   - component: {fileID: 683186412819233151}
@@ -1013,7 +1013,7 @@ MonoBehaviour:
   foregroundMrcRenderTexture: {fileID: 0}
   appCheckResult: 100
   useRecommendedAntiAliasingLevel: 1
---- !u!114 &5421760696769655878
+--- !u!114 &8063563122744338771
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1022,15 +1022,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 683186412819233144}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7448815bd5148434682b3d931066cd10, type: 3}
+  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RigBaseGameObject: {fileID: 683186412819233144}
+  m_Camera: {fileID: 683186413785067893}
+  m_OriginBaseGameObject: {fileID: 683186412819233144}
   m_CameraFloorOffsetObject: {fileID: 683186413220891847}
-  m_CameraGameObject: {fileID: 683186413785067891}
-  m_TrackingOriginMode: 1
-  m_TrackingSpace: 3
-  m_CameraYOffset: 1.36144
+  m_RequestedTrackingOriginMode: 0
+  m_CameraYOffset: 1.1176
 --- !u!114 &683186412819233149
 MonoBehaviour:
   m_ObjectHideFlags: 0
