@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/compare/v1.0.1...v1.0.2) (2023-03-21)
+
+#### Bug Fixes
+
+* **prefab:** use latest Unity XR Toolkit components ([5ab7351](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/commit/5ab735175d89fdef708c92fae118e2f0fecb1dca))
+  > The Pico SDK has a hard dependency on the Unity XR Toolkit but on a very old 0.9.4 preview version, which is now vastly outdated. This ensures the latest XR Toolkit version is installed and updates the prefab to use the XR Origin component instead of the XR Rig component as that is now deprecated.
+
 ### [1.0.1](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/compare/v1.0.0...v1.0.1) (2023-03-21)
 
 #### Miscellaneous Chores
