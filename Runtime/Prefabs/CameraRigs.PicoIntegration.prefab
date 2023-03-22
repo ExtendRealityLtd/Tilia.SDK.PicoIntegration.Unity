@@ -800,7 +800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0eab237e25807459af1c5caf4d3d33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  processMoment: 5
+  processMoment: 3
   processes: {fileID: 683186413671180391}
 --- !u!1 &683186412727049329
 GameObject:
@@ -1091,7 +1091,7 @@ MonoBehaviour:
   source:
     field: {fileID: 683186412819233150}
   onlyProcessOnActiveAndEnabled: 1
-  interval: 0
+  interval: 0.25
 --- !u!1 &683186412822208086
 GameObject:
   m_ObjectHideFlags: 0
