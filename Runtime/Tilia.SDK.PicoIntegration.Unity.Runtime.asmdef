@@ -1,5 +1,5 @@
 {
-    "name": "Tilia.SDK.SDKIntegration.Unity.Runtime",
+    "name": "Tilia.SDK.PicoIntegration.Unity.Runtime",
     "rootNamespace": "",
     "references": [
         "GUID:23756adb8cb36e64587322ad0ecdf5e3",
