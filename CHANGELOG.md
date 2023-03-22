@@ -1,5 +1,16 @@
 # Changelog
 
+### [1.0.3](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/compare/v1.0.2...v1.0.3) (2023-03-22)
+
+#### Bug Fixes
+
+* **asmdef:** rename runtime asmdef ([d359554](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/commit/d359554c0c90f3d848cce3ad41b00b37f53dc395))
+  > The Runtime asmdef had the incorrect name and has now been updated.
+* **prefab:** reduce dominant controller check timer ([0d7d162](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/commit/0d7d16256cbf8b9a7e665f77c01f9d25f39bde3b))
+  > The dominant controller moment process should have a delay interval of `0.25` so it isn't checking every frame. This improves performance.
+  > 
+  > The moment processor has also been moved the LateUpdate process.
+
 ### [1.0.2](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/compare/v1.0.1...v1.0.2) (2023-03-21)
 
 #### Bug Fixes
