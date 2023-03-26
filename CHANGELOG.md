@@ -1,5 +1,16 @@
 # Changelog
 
+### [1.0.4](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/compare/v1.0.3...v1.0.4) (2023-03-26)
+
+#### Bug Fixes
+
+* **Prefabs:** switch to input system pose tracking ([2fed84e](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/commit/2fed84e113c47d24897937e70ecc8ad76a506fba))
+  > The old Tracked Pose Driver does not track any pico controllers so it needs to use the new Unity Input System Tracked Pose Driver.
+  > 
+  > The CameraRig CameraOffset has also been updated to match the default settings provided by the XR Origin rig. The XR Origin Tracking Origin Mode has also been set to a default of `Device` as this is the most common setting that will be used.
+* **Tracking:** ensure device details priority is set ([936aaa8](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/commit/936aaa870455537492bbd86e18683a39fec12183))
+  > The `Priority` property was never being retrieved and was throwing a not implemented exception. This has now been fixed.
+
 ### [1.0.3](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/compare/v1.0.2...v1.0.3) (2023-03-22)
 
 #### Bug Fixes
