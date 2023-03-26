@@ -32,7 +32,7 @@ namespace Tilia.SDK.PicoIntegration.Tracking.CameraRig
         /// <inheritdoc/>
         public override bool IsConnected { get => CheckIsConnected(); protected set => throw new System.NotImplementedException(); }
         /// <inheritdoc/>
-        public override int Priority { get => throw new System.NotImplementedException(); protected set => throw new System.NotImplementedException(); }
+        public override int Priority { get => GetPriority(); protected set => throw new System.NotImplementedException(); }
         /// <inheritdoc/>
         public override bool HasPassThroughCamera { get => true; protected set => throw new System.NotImplementedException(); }
 
