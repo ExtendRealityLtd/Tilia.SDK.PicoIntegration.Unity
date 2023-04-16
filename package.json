@@ -5,7 +5,7 @@
     "changelogUrl": "https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/blob/master/CHANGELOG.md",
     "documentationUrl": "https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/tree/master/Documentation",
     "licensesUrl": "https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/blob/master/LICENSE.md",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "unity": "2020.3",
     "unityRelease": "19f1",
     "keywords": [
