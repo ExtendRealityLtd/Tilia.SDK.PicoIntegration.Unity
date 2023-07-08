@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.11](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/compare/v1.0.10...v1.0.11) (2023-07-08)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.zinnia.unity from 2.13.0 to 2.14.0 ([e655cd1](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/commit/e655cd16ca36ccd3045455452400809fcefb6cd2))
+  > Bumps [io.extendreality.zinnia.unity](https://github.com/ExtendRealityLtd/Zinnia.Unity) from 2.13.0 to 2.14.0. - [Release notes](https://github.com/ExtendRealityLtd/Zinnia.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Zinnia.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Zinnia.Unity/compare/v2.13.0...v2.14.0)
+
 ### [1.0.10](https://github.com/ExtendRealityLtd/Tilia.SDK.PicoIntegration.Unity/compare/v1.0.9...v1.0.10) (2023-07-05)
 
 #### Miscellaneous Chores
